@@ -193,8 +193,8 @@
             });
     
             setTimeout(function() {
-                window.scrollBy(0, -90); 
-            }, 1000); 
+                window.scrollBy(0, -90);
+            }, 1500);
         });
     });
     
