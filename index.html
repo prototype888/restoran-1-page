@@ -47,9 +47,9 @@
         <!-- Navbar & Hero Start -->
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i>Restoran</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                <a href="index.html" class="navbar-brand p-0 d-flex align-items-center justify-content-center">
+                    <img src="img/logo.png" alt="Logo">
+                    <h1 class="text-primary ms-2 m-0">DTS</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -69,7 +69,7 @@
             <!-- Carousel Start -->
             <div class="header-carousel owl-carousel owl-theme" id="tophome">
                 <div class="header-carousel-item">
-                    <img src="img/heroo.jpg" class="img-fluid w-100" alt="Image">
+                    <img src="img/place-1.jpg" class="img-fluid w-100" alt="Image">
                     <div class="carousel-caption">
                         <div class="carousel-caption-content p-3">
                             <h5 class="text-white text-uppercase fw-bold mb-4 animated slideInLeft" style="letter-spacing: 3px;">Consultan Class</h5>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="header-carousel-item">
-                    <img src="img/herooo.jpg" class="img-fluid w-100" alt="Image">
+                    <img src="img/place-3.jpg" class="img-fluid w-100" alt="Image">
                     <div class="carousel-caption">
                         <div class="carousel-caption-content p-3">
                             <h5 class="text-white text-uppercase fw-bold mb-4 animated slideInLeft" style="letter-spacing: 3px;">Consultan Class</h5>
@@ -93,7 +93,7 @@
                     </div>
                 </div>
                 <div class="header-carousel-item">
-                    <img src="img/heroo.jpg" class="img-fluid w-100" alt="Image">
+                    <img src="img/place-7.jpg" class="img-fluid w-100" alt="Image">
                     <div class="carousel-caption">
                         <div class="carousel-caption-content p-3">
                             <h5 class="text-white text-uppercase fw-bold mb-4 animated slideInLeft" style="letter-spacing: 3px;">Consultan Class</h5>
@@ -188,16 +188,16 @@
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/place-2.jpg">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" style="margin-top: 25%;">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/place-5.jpg" style="margin-top: 25%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/place-6.jpg">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/place-9.jpg">
                             </div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="#service">Service</a>
                     </div>
                 </div>
             </div>
@@ -247,21 +247,30 @@
                             <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
                                 <i class="fa fa-landmark fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">All place</small>
-                                    <h6 class="mt-n1 mb-0">Popular</h6>
+                                    <small class="text-body">Most Popular</small>
+                                    <h6 class="mt-n1 mb-0">All Place</h6>
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
-                                <i class="fa fa-building fa-2x text-primary"></i>
+                                <i class="fa fa-landmark fa-2x text-primary"></i>
                                 <div class="ps-3">
-                                    <small class="text-body">Place in</small>
-                                    <h6 class="mt-n1 mb-0">Malang</h6>
+                                    <small class="text-body">Place In</small>
+                                    <h6 class="mt-n1 mb-0">Balikpapan</h6>
                                 </div>
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-building fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Place in</small>
+                                    <h6 class="mt-n1 mb-0">Makassar</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- <li class="nav-item">
                             <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
                                 <i class="fa fa-city fa-2x text-primary"></i>
                                 <div class="ps-3">
@@ -270,16 +279,52 @@
                                 </div>
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-hotel fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Place in </small>
+                                    <h6 class="mt-n1 mb-0">Semarang</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-church  fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Place in </small>
+                                    <h6 class="mt-n1 mb-0">Surabaya</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-monument  fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Place in </small>
+                                    <h6 class="mt-n1 mb-0">Bandung</h6>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                                <i class="fa fa-warehouse   fa-2x text-primary"></i>
+                                <div class="ps-3">
+                                    <small class="text-body">Place in </small>
+                                    <h6 class="mt-n1 mb-0">Jakarta</h6>
+                                </div>
+                            </a>
+                        </li> -->
                     </ul>
                     <div class="tab-content">
                         <div id="tab-1" class="tab-pane fade show p-0 active">
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/starbuck.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
+                                                <span>Emoji Restaurant</span>
                                                 <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
@@ -288,11 +333,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-2.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>Ours Cafe</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-2">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -300,11 +345,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-3.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>The Village Gourment</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-3">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -312,11 +357,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-4.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>Saka Premier Hotel</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-4">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -324,11 +369,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-5.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>Foodpedia</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-5">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -336,11 +381,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-6.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>Majestic Coffe</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-6">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -348,23 +393,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-7.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
-                                            </h5>
-                                            <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>Hawai Hotel Resort</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-7">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -376,10 +409,10 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-1.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
+                                                <span>Emoji Restaurant</span>
                                                 <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
@@ -388,11 +421,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-2.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>Ours Cafe</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-2">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -400,11 +433,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-3.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>The Village Gourment</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-3">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -412,59 +445,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-4.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
-                                            </h5>
-                                            <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
-                                            </h5>
-                                            <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
-                                            </h5>
-                                            <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
-                                            </h5>
-                                            <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>Saka Premier Hotel</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-4">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -476,11 +461,11 @@
                             <div class="row g-4">
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-5.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>Foodpedia</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-5">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -488,11 +473,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-6.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>Majestic Coffe</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-6">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -500,71 +485,11 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="" style="width: 80px;">
+                                        <img class="flex-shrink-0 img-fluid rounded" src="img/testi-7.jpg" alt="" style="width: 80px;">
                                         <div class="w-100 d-flex flex-column text-start ps-4">
                                             <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
-                                            </h5>
-                                            <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
-                                            </h5>
-                                            <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
-                                            </h5>
-                                            <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
-                                            </h5>
-                                            <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
-                                            </h5>
-                                            <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2 flex-wrap gap-1">
-                                                <span>Starbuck</span>
-                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-1">Lihat Class</a>
+                                                <span>Hawai Hotel Resort</span>
+                                                <a href="#" class="btn btn-dark animated slideInLeft" data-bs-toggle="modal" data-bs-target=".modal-lihat-class-7">Lihat Class</a>
                                             </h5>
                                             <small class="fst-italic">Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan</small>
                                         </div>
@@ -585,15 +510,15 @@
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Chef Members</h5>
                     <h1 class="mb-5">Ambil Class dengan Pilihan Chef</h1>
                 </div>
-                <div class="row g-4">
+                <div class="row g-4 justify-content-center">
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
                                 <img class="img-fluid" src="img/file.jpg" alt="Team Member">
                             </div>
-                            <h5 class="mb-0">Willies Julianto</h5>
-                            <small>Designation</small>
-                            <a href="#" class="btn btn-dark mt-2">Ambil Class</a>
+                            <h5 class="mb-0">Willys Julianto</h5>
+                            <small>Professional Chef</small>
+                            <a href="#" class="btn btn-dark mt-2 buyStandardClassBtn" data-classname="Cooking Class">Ambil Service</a>
                             <div class="d-flex justify-content-center mt-3">
                                 <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-twitter"></i></a>
@@ -604,45 +529,45 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/file.jpg" alt="">
+                                <img class="img-fluid" src="img/file.jpg" alt="Team Member">
                             </div>
-                            <h5 class="mb-0">Willies Julianto</h5>
-                            <small>Designation</small>
-                            <a href="#" class="btn btn-dark mt-2">Ambil Class</a>
+                            <h5 class="mb-0">Willys Julianto</h5>
+                            <small>Professional Chef</small>
+                            <a href="#" class="btn btn-dark mt-2 buyStandardClassBtn" data-classname="Cooking Class">Ambil Service</a>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary d-flex mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary d-flex mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary d-flex mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/file.jpg" alt="">
+                                <img class="img-fluid" src="img/file.jpg" alt="Team Member">
                             </div>
-                            <h5 class="mb-0">Willies Julianto</h5>
-                            <small>Designation</small>
-                            <a href="#" class="btn btn-dark mt-2">Ambil Class</a>
+                            <h5 class="mb-0">Willys Julianto</h5>
+                            <small>Professional Chef</small>
+                            <a href="#" class="btn btn-dark mt-2 buyStandardClassBtn" data-classname="Cooking Class">Ambil Service</a>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary d-flex mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary d-flex mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary d-flex mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/file.jpg" alt="">
+                                <img class="img-fluid" src="img/file.jpg" alt="Team Member">
                             </div>
-                            <h5 class="mb-0">Willies Julianto</h5>
-                            <small>Designation</small>
-                            <a href="#" class="btn btn-dark mt-2">Ambil Class</a>
+                            <h5 class="mb-0">Willys Julianto</h5>
+                            <small>Professional Chef</small>
+                            <a href="#" class="btn btn-dark mt-2 buyStandardClassBtn" data-classname="Cooking Class">Ambil Service</a>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary d-flex mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary d-flex mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary d-flex mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary d-flex mx-1" href="#"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -703,7 +628,6 @@
                                 </div>
                             </div>
                         </form>
-                        
                     </div>
                 </div>
             </div>
@@ -739,12 +663,12 @@
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p class="overflow-auto" style="max-height: 75px;">Pengalaman mengikuti kelas di Starbucks sangat menginspirasi. Saya mempelajari teknik pembuatan kopi yang profesional dan mendalam, serta bagaimana Starbucks menjaga standar kualitasnya. Pelatihan ini tidak hanya meningkatkan keterampilan saya dalam menyajikan kopi, tetapi juga memberi wawasan berharga tentang layanan pelanggan yang luar biasa</p>
+                        <p class="overflow-auto" style="max-height: 75px;">Tim DTS konsultan F&B benar-benar profesional dan berpengalaman. Mereka membantu kami merancang menu yang sesuai dengan tren terkini dan menyesuaikan dengan preferensi pelanggan. Layanan mereka membuat bisnis katering kami lebih kompetitif dan inovatif.</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Dinar</h5>
+                                <small>Manajer GourmetPlus</small>
                             </div>
                         </div>
                     </div>
@@ -754,74 +678,74 @@
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Irna</h5>
+                                <small>Owner Bistro Delights</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p class="overflow-auto" style="max-height: 75px;">Ikut kelas di Starbucks adalah investasi terbaik untuk pengembangan profesional saya. Pelatihan ini tidak hanya mengajarkan teknik pembuatan kopi, tetapi juga memberikan keterampilan penting dalam manajemen kafe dan layanan pelanggan. Saya merasa lebih siap dan percaya diri dalam dunia kuliner setelah mengikuti kelas ini</p>
+                        <p class="overflow-auto" style="max-height: 75px;">Kami menggunakan layanan konsultan F&B untuk merancang ulang konsep restoran hotel kami. Hasilnya luar biasa! Restoran kami sekarang menjadi salah satu destinasi kuliner favorit di kota ini. Terima kasih atas kerja keras dan ide-ide briliannya</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Rudi</h5>
+                                <small>CEO Hotel Elegance</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p class="overflow-auto" style="max-height: 75px;">Di kelas Starbucks, saya belajar banyak tentang seni dan ilmu di balik setiap cangkir kopi. Pelatihan yang diberikan sangat komprehensif, mulai dari teknik penyeduhan hingga etika layanan pelanggan. Ini adalah pengalaman yang sangat berharga yang telah memperdalam minat saya dalam industri kopi.</p>
+                        <p class="overflow-auto" style="max-height: 75px;">Dengan bantuan DTS konsultan F&B, kami berhasil memperbarui konsep dan menu bar kami, yang sekarang lebih menarik bagi target pasar kami. Pengetahuan dan keahlian mereka membuat kami mampu bersaing di industri yang sangat kompetitif ini</p>
                         <div class="d-flex align-items-center">
                             <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Julian</h5>
+                                <small>Owner Urban Vibes</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p class="overflow-auto" style="max-height: 75px;">Di kelas Starbucks, saya belajar banyak tentang seni dan ilmu di balik setiap cangkir kopi. Pelatihan yang diberikan sangat komprehensif, mulai dari teknik penyeduhan hingga etika layanan pelanggan. Ini adalah pengalaman yang sangat berharga yang telah memperdalam minat saya dalam industri kopi.</p>
+                        <p class="overflow-auto" style="max-height: 75px;">Layanan DTS konsultan F&B sangat membantu kami dalam merestrukturisasi operasi dapur dan meningkatkan kualitas produk. Mereka memberikan panduan yang jelas dan solusi praktis yang langsung berdampak pada peningkatan penjualan dan efisiensi produksi</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-5.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Linda</h5>
+                                <small>Owner Sweet Treats</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p class="overflow-auto" style="max-height: 75px;">Ikut kelas di Starbucks adalah investasi terbaik untuk pengembangan profesional saya. Pelatihan ini tidak hanya mengajarkan teknik pembuatan kopi, tetapi juga memberikan keterampilan penting dalam manajemen kafe dan layanan pelanggan. Saya merasa lebih siap dan percaya diri dalam dunia kuliner setelah mengikuti kelas ini</p>
+                        <p class="overflow-auto" style="max-height: 75px;">Saya sangat puas dengan layanan DTS konsultan F&B yang saya gunakan. Mereka membantu kami menata ulang dapur dan pelayanan, sehingga proses kerja lebih cepat dan teratur. Kepuasan pelanggan pun meningkat, dan bisnis kami semakin berkembang</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-6.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Yusuf</h5>
+                                <small>Owner Seafood Nusantara</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p class="overflow-auto" style="max-height: 75px;">Di kelas Starbucks, saya belajar banyak tentang seni dan ilmu di balik setiap cangkir kopi. Pelatihan yang diberikan sangat komprehensif, mulai dari teknik penyeduhan hingga etika layanan pelanggan. Ini adalah pengalaman yang sangat berharga yang telah memperdalam minat saya dalam industri kopi.</p>
+                        <p class="overflow-auto" style="max-height: 75px;">DTS Konsultan F&B membantu kami mengembangkan menu vegetarian yang inovatif dan menarik bagi berbagai kalangan. Saran mereka tentang pemasaran dan branding juga sangat efektif, dan sekarang restoran kami menjadi salah satu pilihan utama di kota</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-7.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Hendra</h5>
+                                <small>Owner Resto GreenLeaf</small>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p class="overflow-auto" style="max-height: 75px;">Di kelas Starbucks, saya belajar banyak tentang seni dan ilmu di balik setiap cangkir kopi. Pelatihan yang diberikan sangat komprehensif, mulai dari teknik penyeduhan hingga etika layanan pelanggan. Ini adalah pengalaman yang sangat berharga yang telah memperdalam minat saya dalam industri kopi.</p>
+                        <p class="overflow-auto" style="max-height: 75px;">Konsultan F&B dari DTS benar-benar memahami industri ini dengan baik. Mereka memberikan strategi yang tepat untuk meningkatkan kualitas layanan dan presentasi hidangan kami. Berkat bimbingan mereka, restoran kami kini menjadi tempat yang dikenal karena pengalaman bersantap yang luar biasa dan menu yang eksklusif</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg" style="width: 50px; height: 50px;">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-8.jpg" style="width: 50px; height: 50px;">
                             <div class="ps-3">
-                                <h5 class="mb-1">Client Name</h5>
-                                <small>Profession</small>
+                                <h5 class="mb-1">Abdian</h5>
+                                <small>Owner Fine Dining</small>
                             </div>
                         </div>
                     </div>
@@ -836,41 +760,44 @@
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <a class="btn btn-link" href="">Contact Us</a>
-                        <a class="btn btn-link" href="">Reservation</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-                    </div>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Patner</h4>
+                        <div class="d-flex flex-wrap gap-2 w-100 col-lg-6 col-md-12">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-1.png" alt="Partner 1">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-2.jpg" alt="Partner 2">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-3.png" alt="Partner 3">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-4.png" alt="Partner 4">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-5.png" alt="Partner 5">
+                        </div>
+                    </div> 
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Raya Randuagung No.246B</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0813-3656-2736</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>dtsconsultanfnb@gmail.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/dinasty.talentschool/"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://web.facebook.com/people/Dinasty-Talent-School/61562281392920/?mibextid=JRoKGi"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/@dinastysinghasari"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/dinasty.talentschool/"><i class="fab fa-twitter"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
-                        <h5 class="text-light fw-normal">Monday - Saturday</h5>
+                        <h5 class="text-light fw-normal">Everyday</h5>
                         <p>09AM - 09PM</p>
-                        <h5 class="text-light fw-normal">Sunday</h5>
-                        <p>10AM - 08PM</p>
+                        <h5 class="text-light fw-normal">Weekend</h5>
+                        <p>09AM - 09PM</p>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Partner</h4>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Testi</h4>
                         <div class="d-flex flex-wrap gap-2 w-100 col-lg-6 col-md-12">
-                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-1.png" alt="Partner 1">
-                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-2.png" alt="Partner 2">
-                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-3.png" alt="Partner 3">
-                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-1.png" alt="Partner 3">
-                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-2.png" alt="Partner 3">
-                            <img class="img-fluid w-25 h-25 rounded" src="img/patner-3.png" alt="Partner 3">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/testi-1.jpg" alt="Testi 1">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/testi-2.jpg" alt="Testi 2">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/testi-3.jpg" alt="Testi 3">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/testi-4.jpg" alt="Testi 4">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/testi-5.jpg" alt="Testi 5">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/testi-6.jpg" alt="Testi 6">
+                            <img class="img-fluid w-25 h-25 rounded" src="img/testi-7.jpg" alt="Testi 7">
                         </div>
                     </div>                    
                 </div>
@@ -879,7 +806,7 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; copyright <a class="border-bottom" href="#">Dinasty Bagian Sosmed</a>, Kelas chef 
+                            &copy; copyright <a class="border-bottom" href="#">DTS F&B Konsultan</a>, Service Chef Proffesional
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
@@ -960,28 +887,23 @@
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="modallihat1Label">Starbuck</h5>
+                <h5 class="modal-title" id="modallihat1Label">Emoji Restaurant</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="container mb-3">
                         <div class="row g-3">
                             <div class="col-6 col-md-6">
-                                <img src="img/heroo.jpg" class="img-fluid rounded" alt="Gambar 1">
+                                <img src="img/place-1.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" style="max-height: 125px; object-fit: cover;" alt="Gambar 1">
                             </div>
                             <div class="col-6 col-md-6">
-                                <img src="img/heroo.jpg" class="img-fluid rounded" alt="Gambar 2">
-                            </div>
-                            <div class="col-6 col-md-6">
-                                <img src="img/heroo.jpg" class="img-fluid rounded" alt="Gambar 3">
-                            </div>
-                            <div class="col-6 col-md-6">
-                                <img src="img/heroo.jpg" class="img-fluid rounded" alt="Gambar 4">
+                                <img src="img/place-8.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" style="max-height: 125px; object-fit: cover;" alt="Gambar 2">
                             </div>
                         </div>
                     </div>
                     <h5>Deskripsi</h5>
-                    <p>Di kelas Starbucks, saya mendapatkan kesempatan untuk mendalami berbagai aspek dalam dunia kopi dan manajemen kafe. Kegiatan yang dilakukan meliputi pelatihan pembuatan kopi dari teknik dasar hingga lanjutan, termasuk metode penyeduhan dan seni latte. Selain itu, kami mempelajari prinsip-prinsip layanan pelanggan yang unggul dan strategi operasional untuk meningkatkan pengalaman pelanggan. Kelas ini memberikan wawasan mendalam tentang standar tinggi Starbucks dalam menciptakan kopi berkualitas dan pelayanan yang memuaskan.</p>
+                    <p>Layanan DTS Jasa Consultan & Maintenance mencakup audit sistem, pengembangan strategi, dan implementasi teknologi untuk memastikan infrastruktur bisnis Anda berjalan optimal. Kami juga menyediakan perawatan preventif dan korektif, monitoring real-time, serta dukungan darurat untuk menjaga performa sistem tetap stabil dan efisien, mengurangi downtime, dan meningkatkan produktivitas bisnis Anda.</p>
+                    <h5>Produk yang di dapat</h5>
                     <li class="ms-3">team go to location selama 2 minggu</li>
                     <li class="ms-3">Jasa konsultasi</li>
                     <li class="ms-3">⁠recipe menu</li>
@@ -998,7 +920,253 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <a href="#" class="btn btn-primary" id="buyStandardClassBtn" data-classname="Cooking Class">Beli Class</a>
+                    <a href="#" class="btn btn-primary buyStandardClassBtn" data-classname="Cooking Class">Beli Class</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal lihat class 2 -->
+        <div class="modal fade modal-lihat-class-2" tabindex="-1" aria-labelledby="modallihat1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="modallihat1Label">Ours Cafe</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container mb-3">
+                        <div class="row g-3">
+                            <div class="col-6 col-md-6">
+                                <img src="img/place-2.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" style="max-height: 125px; object-fit: cover;" alt="Gambar 1">
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Deskripsi</h5>
+                    <p>Layanan DTS Jasa Consultan & Maintenance mencakup audit sistem, pengembangan strategi, dan implementasi teknologi untuk memastikan infrastruktur bisnis Anda berjalan optimal. Kami juga menyediakan perawatan preventif dan korektif, monitoring real-time, serta dukungan darurat untuk menjaga performa sistem tetap stabil dan efisien, mengurangi downtime, dan meningkatkan produktivitas bisnis Anda.</p>
+                    <h5>Produk yang di dapat</h5>
+                    <li class="ms-3">team go to location selama 2 minggu</li>
+                    <li class="ms-3">Jasa konsultasi</li>
+                    <li class="ms-3">⁠recipe menu</li>
+                    <li class="ms-3">⁠test food menu</li>
+                    <li class="ms-3">⁠hiring crew</li>
+                    <li class="ms-3">⁠trainer all crew</li>
+                    <li class="ms-3">⁠⁠setting kitchen layout</li>
+                    <li class="ms-3">⁠setting bar layout</li>        
+                    <li class="ms-3">⁠setting dinner place</li>        
+                    <li class="ms-3">⁠SOP dan penerapan kepada crew</li>        
+                    <li class="ms-3">⁠setting management</li>        
+                    <li class="ms-3">mengawal grand opening</li>        
+                    <li class="ms-3">DLL</li>        
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="#" class="btn btn-primary buyStandardClassBtn" data-classname="Cooking Class">Beli Class</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal lihat class 3 -->
+        <div class="modal fade modal-lihat-class-3" tabindex="-1" aria-labelledby="modallihat1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="modallihat1Label">The Village Gourment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container mb-3">
+                        <div class="row g-3">
+                            <div class="col-6 col-md-6">
+                                <img src="img/place-3.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" style="max-height: 125px; object-fit: cover;" alt="Gambar 1">
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Deskripsi</h5>
+                    <p>Layanan DTS Jasa Consultan & Maintenance mencakup audit sistem, pengembangan strategi, dan implementasi teknologi untuk memastikan infrastruktur bisnis Anda berjalan optimal. Kami juga menyediakan perawatan preventif dan korektif, monitoring real-time, serta dukungan darurat untuk menjaga performa sistem tetap stabil dan efisien, mengurangi downtime, dan meningkatkan produktivitas bisnis Anda.</p>
+                    <h5>Produk yang di dapat</h5>
+                    <li class="ms-3">team go to location selama 2 minggu</li>
+                    <li class="ms-3">Jasa konsultasi</li>
+                    <li class="ms-3">⁠recipe menu</li>
+                    <li class="ms-3">⁠test food menu</li>
+                    <li class="ms-3">⁠hiring crew</li>
+                    <li class="ms-3">⁠trainer all crew</li>
+                    <li class="ms-3">⁠⁠setting kitchen layout</li>
+                    <li class="ms-3">⁠setting bar layout</li>        
+                    <li class="ms-3">⁠setting dinner place</li>        
+                    <li class="ms-3">⁠SOP dan penerapan kepada crew</li>        
+                    <li class="ms-3">⁠setting management</li>        
+                    <li class="ms-3">mengawal grand opening</li>        
+                    <li class="ms-3">DLL</li>        
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="#" class="btn btn-primary buyStandardClassBtn" data-classname="Cooking Class">Beli Class</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal lihat class 4 -->
+        <div class="modal fade modal-lihat-class-4" tabindex="-1" aria-labelledby="modallihat1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="modallihat1Label">Saka Premier Hotel</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container mb-3">
+                        <div class="row g-3">
+                            <div class="col-6 col-md-6">
+                                <img src="img/place-4.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" style="max-height: 125px; object-fit: cover;" alt="Gambar 1">
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Deskripsi</h5>
+                    <p>Layanan DTS Jasa Consultan & Maintenance mencakup audit sistem, pengembangan strategi, dan implementasi teknologi untuk memastikan infrastruktur bisnis Anda berjalan optimal. Kami juga menyediakan perawatan preventif dan korektif, monitoring real-time, serta dukungan darurat untuk menjaga performa sistem tetap stabil dan efisien, mengurangi downtime, dan meningkatkan produktivitas bisnis Anda.</p>
+                    <h5>Produk yang di dapat</h5>
+                    <li class="ms-3">team go to location selama 2 minggu</li>
+                    <li class="ms-3">Jasa konsultasi</li>
+                    <li class="ms-3">⁠recipe menu</li>
+                    <li class="ms-3">⁠test food menu</li>
+                    <li class="ms-3">⁠hiring crew</li>
+                    <li class="ms-3">⁠trainer all crew</li>
+                    <li class="ms-3">⁠⁠setting kitchen layout</li>
+                    <li class="ms-3">⁠setting bar layout</li>        
+                    <li class="ms-3">⁠setting dinner place</li>        
+                    <li class="ms-3">⁠SOP dan penerapan kepada crew</li>        
+                    <li class="ms-3">⁠setting management</li>        
+                    <li class="ms-3">mengawal grand opening</li>        
+                    <li class="ms-3">DLL</li>        
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="#" class="btn btn-primary buyStandardClassBtn" data-classname="Cooking Class">Beli Class</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal lihat class 5 -->
+        <div class="modal fade modal-lihat-class-5" tabindex="-1" aria-labelledby="modallihat1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="modallihat1Label">Foodpedia</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container mb-3">
+                        <div class="row g-3">
+                            <div class="col-6 col-md-6">
+                                <img src="img/place-5.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" style="max-height: 125px; object-fit: cover;" alt="Gambar 1">
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Deskripsi</h5>
+                    <p>Layanan DTS Jasa Consultan & Maintenance mencakup audit sistem, pengembangan strategi, dan implementasi teknologi untuk memastikan infrastruktur bisnis Anda berjalan optimal. Kami juga menyediakan perawatan preventif dan korektif, monitoring real-time, serta dukungan darurat untuk menjaga performa sistem tetap stabil dan efisien, mengurangi downtime, dan meningkatkan produktivitas bisnis Anda.</p>
+                    <h5>Produk yang di dapat</h5>
+                    <li class="ms-3">team go to location selama 2 minggu</li>
+                    <li class="ms-3">Jasa konsultasi</li>
+                    <li class="ms-3">⁠recipe menu</li>
+                    <li class="ms-3">⁠test food menu</li>
+                    <li class="ms-3">⁠hiring crew</li>
+                    <li class="ms-3">⁠trainer all crew</li>
+                    <li class="ms-3">⁠⁠setting kitchen layout</li>
+                    <li class="ms-3">⁠setting bar layout</li>        
+                    <li class="ms-3">⁠setting dinner place</li>        
+                    <li class="ms-3">⁠SOP dan penerapan kepada crew</li>        
+                    <li class="ms-3">⁠setting management</li>        
+                    <li class="ms-3">mengawal grand opening</li>        
+                    <li class="ms-3">DLL</li>        
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="#" class="btn btn-primary buyStandardClassBtn" data-classname="Cooking Class">Beli Class</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal lihat class 6 -->
+        <div class="modal fade modal-lihat-class-6" tabindex="-1" aria-labelledby="modallihat1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="modallihat1Label">Majestic Coffe</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container mb-3">
+                        <div class="row g-3">
+                            <div class="col-6 col-md-6">
+                                <img src="img/place-6.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" style="max-height: 125px; object-fit: cover;" alt="Gambar 1">
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Deskripsi</h5>
+                    <p>Layanan DTS Jasa Consultan & Maintenance mencakup audit sistem, pengembangan strategi, dan implementasi teknologi untuk memastikan infrastruktur bisnis Anda berjalan optimal. Kami juga menyediakan perawatan preventif dan korektif, monitoring real-time, serta dukungan darurat untuk menjaga performa sistem tetap stabil dan efisien, mengurangi downtime, dan meningkatkan produktivitas bisnis Anda.</p>
+                    <h5>Produk yang di dapat</h5>
+                    <li class="ms-3">team go to location selama 2 minggu</li>
+                    <li class="ms-3">Jasa konsultasi</li>
+                    <li class="ms-3">⁠recipe menu</li>
+                    <li class="ms-3">⁠test food menu</li>
+                    <li class="ms-3">⁠hiring crew</li>
+                    <li class="ms-3">⁠trainer all crew</li>
+                    <li class="ms-3">⁠⁠setting kitchen layout</li>
+                    <li class="ms-3">⁠setting bar layout</li>        
+                    <li class="ms-3">⁠setting dinner place</li>        
+                    <li class="ms-3">⁠SOP dan penerapan kepada crew</li>        
+                    <li class="ms-3">⁠setting management</li>        
+                    <li class="ms-3">mengawal grand opening</li>        
+                    <li class="ms-3">DLL</li>        
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="#" class="btn btn-primary buyStandardClassBtn" data-classname="Cooking Class">Beli Class</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal lihat class 7 -->
+        <div class="modal fade modal-lihat-class-7" tabindex="-1" aria-labelledby="modallihat1Label" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="modallihat1Label">Hawai Hotel Resort</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container mb-3">
+                        <div class="row g-3">
+                            <div class="col-6 col-md-6">
+                                <img src="img/place-7.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" style="max-height: 125px; object-fit: cover;" alt="Gambar 1">
+                            </div>
+                        </div>
+                    </div>
+                    <h5>Deskripsi</h5>
+                    <p>Layanan DTS Jasa Consultan & Maintenance mencakup audit sistem, pengembangan strategi, dan implementasi teknologi untuk memastikan infrastruktur bisnis Anda berjalan optimal. Kami juga menyediakan perawatan preventif dan korektif, monitoring real-time, serta dukungan darurat untuk menjaga performa sistem tetap stabil dan efisien, mengurangi downtime, dan meningkatkan produktivitas bisnis Anda.</p>
+                    <h5>Produk yang di dapat</h5>
+                    <li class="ms-3">team go to location selama 2 minggu</li>
+                    <li class="ms-3">Jasa konsultasi</li>
+                    <li class="ms-3">⁠recipe menu</li>
+                    <li class="ms-3">⁠test food menu</li>
+                    <li class="ms-3">⁠hiring crew</li>
+                    <li class="ms-3">⁠trainer all crew</li>
+                    <li class="ms-3">⁠⁠setting kitchen layout</li>
+                    <li class="ms-3">⁠setting bar layout</li>        
+                    <li class="ms-3">⁠setting dinner place</li>        
+                    <li class="ms-3">⁠SOP dan penerapan kepada crew</li>        
+                    <li class="ms-3">⁠setting management</li>        
+                    <li class="ms-3">mengawal grand opening</li>        
+                    <li class="ms-3">DLL</li>        
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a href="#" class="btn btn-primary buyStandardClassBtn" data-classname="Cooking Class">Beli Class</a>
                 </div>
             </div>
             </div>
