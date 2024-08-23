@@ -199,6 +199,7 @@
     });
     
     
+    
 })(jQuery);
 
 $(function () {
@@ -248,21 +249,24 @@ document.getElementById('buyProClassBtn').addEventListener('click', function(eve
     window.location.href = buyProClassWhatsappURL;
 });
 
-document.getElementById('buyStandardClassBtn').addEventListener('click', function(event) {
-    event.preventDefault(); 
-    var phoneNumber = '6285708646867'; 
-    var className = this.getAttribute('data-classname'); 
-    var buyStandardClassMessage = `Halo, saya tertarik untuk membeli kelas ${className}.`;
-    var buyStandardClassWhatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(buyStandardClassMessage)}`;
+document.querySelectorAll('.buyStandardClassBtn').forEach(function(button) {
+    button.addEventListener('click', function(event) {
+        event.preventDefault(); 
+        var phoneNumber = '6285708646867'; 
+        var className = this.getAttribute('data-classname'); 
+        var buyClassMessage = `Halo, saya tertarik untuk membeli kelas ${className}.`;
+        var buyClassWhatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(buyClassMessage)}`;
 
-    window.location.href = buyStandardClassWhatsappURL;
+        window.location.href = buyClassWhatsappURL;
+    });
 });
 
+
 $(document).ready(function () {
-    // Smooth scrolling
     $(document).ready(function() {
         $('.navbar-nav a, .btn').on('click', function(event) {
-            if (this.hash !== "") {
+            // Cek apakah tombol yang diklik adalah submit button
+            if ($(this).closest('form').length === 0 && this.hash !== "") {
                 event.preventDefault();
                 var hash = this.hash;
     
@@ -276,6 +280,7 @@ $(document).ready(function () {
             }
         });
     });
+    
     
 
     // Change active state on scroll
