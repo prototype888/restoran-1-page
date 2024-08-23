@@ -585,3 +585,12 @@
     padding-right: 0;
     border-right: none;
 }
+
+@media (max-width: 550px) {
+    .tab-content .row .col-lg-6 .d-flex .w-100 .d-flex {
+        flex-direction: column !important;
+    }
+    .tab-content .row .col-lg-6 .d-flex .w-100 .d-flex a {
+        width: min(150px, 100%) !important;
+    }
+}
