@@ -261,29 +261,30 @@ document.querySelectorAll('.buyStandardClassBtn').forEach(function(button) {
     });
 });
 
-
 $(document).ready(function () {
-    $(document).ready(function() {
-        $('.navbar-nav a, .btn').on('click', function(event) {
-            // Cek apakah tombol yang diklik adalah submit button
-            if ($(this).closest('form').length === 0 && this.hash !== "") {
-                event.preventDefault();
-                var hash = this.hash;
-    
-                var stopPoint = 10; 
-    
-                var targetPosition = $(hash).offset().top + stopPoint;
-    
-                $('html, body').animate({
-                    scrollTop: targetPosition
-                }, 800);
-            }
-        });
-    });
-    
-    
+    $('.navbar-nav a, .btn').on('click', function(event) {
+        // Cek apakah tombol yang diklik adalah submit button
+        if ($(this).closest('form').length === 0 && this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
 
-    // Change active state on scroll
+            // Hapus class 'active' dari semua nav-link jika "Book A Class" diklik
+            $('.navbar-nav .nav-link').removeClass('active');
+
+            if (hash === "#bookingclass") {
+                $('.navbar-nav a').removeClass('active');
+            }
+
+            var stopPoint = 10; 
+            var targetPosition = $(hash).offset().top + stopPoint;
+
+            $('html, body').animate({
+                scrollTop: targetPosition
+            }, 800);
+        }
+    });
+
+    // Mengubah status active berdasarkan scroll
     $(window).on('scroll', function () {
         var scrollPos = $(document).scrollTop();
         $('.navbar-nav a').each(function () {
