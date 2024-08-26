@@ -296,3 +296,9 @@ $(document).ready(function () {
         });
     });
 });
+
+$(document).ready(function () {
+    $('.navbar-collapse a, .navbar-collapse button').on('click', function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+});
