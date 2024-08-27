@@ -212,11 +212,6 @@
 })(jQuery);
 
 $(function () {
-    $('#date3').datetimepicker({
-        format: 'YYYY-MM-DD HH:mm',
-        useCurrent: false
-    });
-
     document.getElementById('contactForm').addEventListener('submit', function(e) {
         e.preventDefault();
 
@@ -226,17 +221,17 @@ $(function () {
         var number = $('#number').val();
         var message = $('#message').val();
 
-        var fullMessage = `Name: ${name}\nEmail: ${email}\nDate & Time: ${datetime}\nNumber of Participants: ${number}\nSpecial Request: ${message}`;
+        var fullMessage = `Nama: ${name}\nEmail: ${email}\nTanggal: ${datetime}\nJumlah Peserta: ${number}\nPermintaan Khusus: ${message}`;
 
         var whatsappMessage = encodeURIComponent(fullMessage);
 
         var whatsappNumber = '6285708646867';
         var whatsappURL = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
-
         window.location.href = whatsappURL;
     });
 });
+
 
 document.getElementById('buyBasicClassBtn').addEventListener('click', function(event) {
     event.preventDefault(); 
