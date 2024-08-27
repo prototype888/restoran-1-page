@@ -84,6 +84,15 @@
         return false;
     });
 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) { 
+            $('#clbh_phone_div').fadeIn('slow');
+        } else {
+            $('#clbh_phone_div').fadeOut('slow');
+        }
+    });
+    
+
 
     // Facts counter
     $('[data-toggle="counter-up"]').counterUp({
@@ -261,30 +270,28 @@ document.querySelectorAll('.buyStandardClassBtn').forEach(function(button) {
     });
 });
 
+
 $(document).ready(function () {
-    $('.navbar-nav a, .btn').on('click', function(event) {
-        // Cek apakah tombol yang diklik adalah submit button
+    $('.navbar-nav a').on('click', function(event) {
         if ($(this).closest('form').length === 0 && this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
-
-            // Hapus class 'active' dari semua nav-link jika "Book A Class" diklik
+    
             $('.navbar-nav .nav-link').removeClass('active');
-
-            if (hash === "#bookingclass") {
-                $('.navbar-nav a').removeClass('active');
-            }
-
+    
+            $(this).addClass('active');
+    
             var stopPoint = 10; 
             var targetPosition = $(hash).offset().top + stopPoint;
-
+    
             $('html, body').animate({
                 scrollTop: targetPosition
             }, 800);
         }
     });
+    
+    
 
-    // Mengubah status active berdasarkan scroll
     $(window).on('scroll', function () {
         var scrollPos = $(document).scrollTop();
         $('.navbar-nav a').each(function () {
@@ -298,8 +305,10 @@ $(document).ready(function () {
     });
 });
 
+
 $(document).ready(function () {
     $('.navbar-collapse a, .navbar-collapse button').on('click', function () {
         $('.navbar-collapse').collapse('hide');
     });
 });
+
