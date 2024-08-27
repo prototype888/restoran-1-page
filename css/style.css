@@ -326,6 +326,12 @@
     overflow: auto;
 }
 
+@media (max-width: 575px) {
+    .custom-service {
+        overflow: visible;
+    }
+}
+
 .service-item:hover {
     background: var(--primary);
 }
